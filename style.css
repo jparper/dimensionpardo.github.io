@@ -1,0 +1,172 @@
+#meme_text {
+        background-color: transparent;
+        font-size: 40px;
+        font-family: "Impact";
+        color: white;
+        text-shadow: black 0px 0px 10px;
+        width: 600px;
+        position: absolute;
+        left: 40%;
+        top: 600px;
+    }
+
+    #image {
+        width: 600px;
+        border: 3px solid #000000;
+    }
+#button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  content: "\f167";
+}
+
+#user_text {
+  width: 300px;
+  border: 5px solid green;
+  background-color: green;
+  font-size: 40px;
+  font-family: "Impact";
+  color: white;
+  text-shadow: black 0px 0px 10px;
+}
+
+body {
+  background: url("\sevilla.JPG");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#scrollup {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  left: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  display: none;
+}
+
+#scrollup:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+#user_picture{
+  font-size: 20px
+}
+
+
+#video{
+  text-align:center;
+}
+
+video{
+  border: 10px dotted blue;
+}
+
+textarea{
+  background-color:beige;
+}
+
+
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+#header h2 {
+  text-align: center;
+}
+
+#progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+#myBar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+#content {
+  padding: 100px 0;
+  margin: 50px auto 0 auto;
+  width: 80%;
+}
+
+.subir{
+    padding: 5px 10px;
+    background: #f55d3e;
+    color:#fff;
+    border:0px solid #fff;
+    width: auto;
+}
+ 
+.subir:hover{
+    color:#fff;
+    background: #f7cb15;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
